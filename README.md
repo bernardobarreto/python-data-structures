@@ -8,7 +8,7 @@
    - Circular Linked List [x]
 
 3. **Stacks and Queues**:
-   - Array-based Stack
+   - Array-based Stack [x]
    - Linked List-based Stack
    - Array-based Queue
    - Linked List-based Queue
