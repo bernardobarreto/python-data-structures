@@ -1,38 +1,42 @@
 class Queue(object):
     def __init__(self, *vals):
+        self._vals = []
         for val in vals:
-            push(val)
+            self.push(val)
 
-    def push(val):
+    def push(self, val):
         self._vals.insert(0, val)
         return True
 
-    def pop():
+    def pop(self):
         return self._vals.pop()
 
-    def peek():
+    def peek(self):
         return self._vals[-1]
 
-    def size():
+    def size(self):
         return len(self._vals)
 
 
 def test():
-    stack = Queue(1,2,3)
-    assert stack.size() == 3
-    assert stack.pop() == 4
+    queue = Queue(1,2,3)
+    assert queue.size() == 3
+    assert queue.pop() == 1
 
-    assert stack.size() == 2
-    assert stack.pop() == 2
+    assert queue.size() == 2
+    assert queue.pop() == 2
 
-    assert stack.size() == 1
-    assert stack.pop() == 1
+    assert queue.size() == 1
+    assert queue.pop() == 3
 
-    assert stack.size() == 0
-    assert stack.push(10) == True
-    assert stack.size() == 1
+    assert queue.size() == 0
+    assert queue.push(10) == True
+    assert queue.size() == 1
 
-    assert stack.peek() == 10
-    assert stack.push(20) == True
-    assert stack.peek() == 20
-    assert stack.size() == 2
+    assert queue.peek() == 10
+    assert queue.push(20) == True
+    assert queue.peek() == 10
+    assert queue.size() == 2
+
+if __name__ == '__main__':
+    test()
