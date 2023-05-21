@@ -3,8 +3,8 @@
    - Multi-dimensional Array (Matrices)
 
 2. **Linked Lists**:
-   - Singly Linked List
-   - Doubly Linked List
+   - Singly Linked List [x]
+   - Doubly Linked List [x]
    - Circular Linked List
 
 3. **Stacks and Queues**:
