@@ -5,7 +5,7 @@
 2. **Linked Lists**:
    - Singly Linked List [x]
    - Doubly Linked List [x]
-   - Circular Linked List
+   - Circular Linked List [x]
 
 3. **Stacks and Queues**:
    - Array-based Stack
