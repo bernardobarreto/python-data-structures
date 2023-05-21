@@ -1,27 +1,26 @@
-class Stack(object):
+class Queue(object):
     def __init__(self, *vals):
-        self._vals = []
         for val in vals:
-            self.push(val)
+            push(val)
 
-    def push(self, val):
-        self._vals.append(val)
+    def push(val):
+        self._vals.insert(0, val)
         return True
 
-    def pop(self):
+    def pop():
         return self._vals.pop()
 
-    def peek(self):
+    def peek():
         return self._vals[-1]
 
-    def size(self):
+    def size():
         return len(self._vals)
 
 
 def test():
-    stack = Stack(1,2,3)
+    stack = Queue(1,2,3)
     assert stack.size() == 3
-    assert stack.pop() == 3
+    assert stack.pop() == 4
 
     assert stack.size() == 2
     assert stack.pop() == 2
@@ -37,6 +36,3 @@ def test():
     assert stack.push(20) == True
     assert stack.peek() == 20
     assert stack.size() == 2
-
-if __name__ == '__main__':
-    test()
