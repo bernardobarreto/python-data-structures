@@ -10,7 +10,7 @@
 3. **Stacks and Queues**:
    - Array-based Stack [x]
    - Linked List-based Stack
-   - Array-based Queue
+   - Array-based Queue [x]
    - Linked List-based Queue
    - Priority Queue
    - Double-ended Queue (Deque)
