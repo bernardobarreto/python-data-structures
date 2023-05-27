@@ -12,7 +12,8 @@
    - Linked List-based Stack
    - Array-based Queue [x]
    - Linked List-based Queue
-   - Priority Queue
+   - Unordered Array-based Priority Queue [x]
+   - Linked List-based Priority Queue
    - Double-ended Queue (Deque)
    - Circular Queue
 
