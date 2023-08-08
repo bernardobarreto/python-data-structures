@@ -1,13 +1,9 @@
-1. **Arrays**:
-   - One-dimensional Array (Vector)
-   - Multi-dimensional Array (Matrices)
-
-2. **Linked Lists**:
+**Linked Lists**:
    - Singly Linked List [x]
    - Doubly Linked List [x]
    - Circular Linked List [x]
 
-3. **Stacks and Queues**:
+**Stacks and Queues**:
    - Array-based Stack [x]
    - Linked List-based Stack
    - Array-based Queue [x]
@@ -17,17 +13,17 @@
    - Double-ended Queue (Deque)
    - Circular Queue
 
-4. **Hash Tables**:
+**Hash Tables**:
    - Open Hashing (Linear Probing, Quadratic Probing, Double Hashing)
    - Closed Hashing (Separate Chaining)
 
-5. **Trees**:
+**Trees**:
    - Binary Tree
    - Binary Search Tree (BST)
    - Balanced Tree (AVL, Red-Black Trees)
    - B Tree (B-Tree, B+ Tree)
 
-6. **Graphs**:
+**Graphs**:
    - Directed Graph (Digraph)
    - Undirected Graph
    - Weighted Graph
@@ -38,7 +34,7 @@
    - Minimum Spanning Tree
    - Bipartite Graph
 
-7. **Heap**:
+**Heap**:
    - Binary Heap
    - Binomial Heap
    - Fibonacci Heap
